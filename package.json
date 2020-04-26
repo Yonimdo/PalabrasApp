@@ -1,6 +1,7 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "devtools": "react-devtools",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -14,6 +15,7 @@
     "expo": "~37.0.3",
     "prop-types": "^15.7.2",
     "react": "~16.9.0",
+    "react-devtools": "^3.6.3",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
     "react-native-image-header-scroll-view": "^0.10.3",
@@ -21,12 +23,15 @@
     "react-native-parallax-swiper": "^1.1.7",
     "react-native-screens": "~2.2.0",
     "react-native-svg": "11.0.1",
-    "react-native-web": "~0.11.7"
+    "react-native-web": "~0.11.7",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.17",
+    "@types/react-redux": "^7.1.7",
     "babel-preset-expo": "~8.1.0",
     "typescript": "~3.8.3"
   },

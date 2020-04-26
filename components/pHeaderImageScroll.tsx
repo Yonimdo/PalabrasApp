@@ -21,7 +21,7 @@ export default class PHeaderImageScroll extends React.Component {
       >
         <View style={{ height: 1000 }}>
           <TriggeringView onHide={() => console.log("text hidden")}>
-            <LabelSelect>
+            <LabelSelect enable enableAddBtn>
 
             </LabelSelect>
           </TriggeringView>
