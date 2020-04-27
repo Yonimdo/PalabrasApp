@@ -1,20 +1,15 @@
-
+import { config } from "../../config"
 
 const languagesReducer = async (state:any, action:any) => {
   if(!state){
     // let all = await fetch(action.payload, {
-    let all = await fetch("http://localhost:5001/mparablas/us-central1/api/getAllLanguages", {
+    let all = await fetch( `${config.storeFirebaseUrl}getAllLanguages`, {
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
     }
-  }).then(data=> {
-      debugger;
-      return data.json();
-    }).catch(e=>{
-      debugger;
-    });
-    debugger
+  }).then(data=> {return data.json();}).catch(e=>{debugger;});
+    
     state = {
       allLanguges:all,
       userLanguages:[{

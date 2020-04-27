@@ -1,5 +1,6 @@
 node_modules/**/*
-.expo/*
+.expo
+App/.expo/**
 npm-debug.*
 *.jks
 *.p8
@@ -9,8 +10,7 @@ npm-debug.*
 *.orig.*
 web-build/
 web-report/
-
 # macOS
 .DS_Store
 
-googleaccount.json
+node_modules

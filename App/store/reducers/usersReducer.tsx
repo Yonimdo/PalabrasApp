@@ -1,26 +1,31 @@
+import { Actions }  from '../actions';
+import firebase from "firebase";
+import User from "../entites/user";
 
-const PROFILE_INITIAL_STATE = {
-  name:"",
-  profileImage:"",
-  about:"",
-  isLoggedIn:false,
-  isPremium:false
-};
 
 const INITIAL_STATE = {
-  data:[
-    PROFILE_INITIAL_STATE
-  ]
+  data: []
 };
 
-const profileReducer = (state = PROFILE_INITIAL_STATE, action:any) => {
+const profileReducer = (state: User = new User(), action: any) => {
+  const user = firebase.auth().currentUser;
+  if(!!user){
+    
+  }
   switch (action.type) {
+    case Actions.LOGIN_CRAEATE_IN_DB:
+      state.name = `Hello there ${user?.displayName}, were creating your data, please wait`
+      return state
+    case Actions.LOGIN_FIREBASE:
+      state.name = "Analyzing data please hold"
+      return state
+      case Actions.LOGIN:
     default:
       return state
   }
 };
 
-const usersReducer = (state = INITIAL_STATE, action:any) => {
+const usersReducer = (state = INITIAL_STATE, action: any) => {
   switch (action.type) {
     default:
       return state

@@ -10,11 +10,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "install": "concurrently \"cd App && npm install\" \"cd Firebase/functions && npm install\"",
-    "start": "concurrently \"npm run open_devtool\" \"npm run watch_firebase\" \"npm run serve_firebase\" ",
+    "install": "concurrently \"cd App && npm install\" \"cd Firebase && cd functions && npm install\"",
+    "start": "concurrently \"npm run watch_app\" \"npm run open_devtool\" \"npm run watch_firebase\" \"npm run serve_firebase\" ",
     "watch_app": "cd App && npm start",
     "open_devtool": "cd App && npm run devtools",
-    "serve_firebase": "cd Firebase && firebase serve",
+    "serve_firebase": "cd Firebase && firebase serve -o 0.0.0.0",
     "watch_firebase": "cd Firebase/functions && npm run watch",
     "add_languages": "node Scripts/db-set-languages.js"
   },
