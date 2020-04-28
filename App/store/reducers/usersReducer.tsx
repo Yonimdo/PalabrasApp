@@ -1,4 +1,4 @@
-import { Actions }  from '../actions';
+import { Actions } from '../actions';
 import firebase from "firebase";
 import User from "../entites/user";
 
@@ -9,17 +9,27 @@ const INITIAL_STATE = {
 
 const profileReducer = (state: User = new User(), action: any) => {
   const user = firebase.auth().currentUser;
-  if(!!user){
-    
+  if (!!user) {
+      state.administrative_fields.uid = user.uid;
+      state.administrative_fields.isLoggedIn = true;
   }
   switch (action.type) {
     case Actions.LOGIN_CRAEATE_IN_DB:
-      state.name = `Hello there ${user?.displayName}, were creating your data, please wait`
-      return state
+      state.display = `Hello there ${user?.displayName}, were creating your data, please wait`
+      return { ...state }
+    case Actions.LOGIN_FIALED:
+      state.display = "Login failed"
+      state.administrative_fields.token = false;
+      return { ...state }
+    case Actions.GOT_GOOGLE_ID_TOKEN:
+      state.display = "Analyzing data please hold"
+      state.administrative_fields.token = true;
+      return { ...state }
     case Actions.LOGIN_FIREBASE:
-      state.name = "Analyzing data please hold"
-      return state
-      case Actions.LOGIN:
+      state.display = "Analyzing data please hold"
+      return { ...state }
+    case Actions.LOGIN:
+      return { ...state }
     default:
       return state
   }

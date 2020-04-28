@@ -1,418 +1,105 @@
 [
-    {
-        "title": "Afrikaans",
-        "flag": "https://mparablas.web.app/images/af.png"
-    },
-    {
-        "title": "Albanian",
-        "flag": "https://mparablas.web.app/images/sq.png"
-    },
-    {
-        "title": "Amharic",
-        "flag": "https://mparablas.web.app/images/am.png"
-    },
-    {
-        "title": "Arabic",
-        "flag": "https://mparablas.web.app/images/ar.png"
-    },
-    {
-        "title": "Armenian",
-        "flag": "https://mparablas.web.app/images/hy.png"
-    },
-    {
-        "title": "Azerbaijani",
-        "flag": "https://mparablas.web.app/images/az.png"
-    },
-    {
-        "title": "Basque",
-        "flag": "https://mparablas.web.app/images/eu.png"
-    },
-    {
-        "title": "Belarusian",
-        "flag": "https://mparablas.web.app/images/be.png"
-    },
-    {
-        "title": "Bengali",
-        "flag": "https://mparablas.web.app/images/bn.png"
-    },
-    {
-        "title": "Bosnian",
-        "flag": "https://mparablas.web.app/images/bs.png"
-    },
-    {
-        "title": "Bulgarian",
-        "flag": "https://mparablas.web.app/images/bg.png"
-    },
-    {
-        "title": "Catalan",
-        "flag": "https://mparablas.web.app/images/ca.png"
-    },
-    {
-        "title": "Cebuano",
-        "flag": "https://mparablas.web.app/images/ceb.png"
-    },
-    {
-        "title": "Chichewa",
-        "flag": "https://mparablas.web.app/images/ny.png"
-    },
-    {
-        "title": "Chinese (Simplified)",
-        "flag": "https://mparablas.web.app/images/zh.png"
-    },
-    {
-        "title": "Chinese (Traditional)",
-        "flag": "https://mparablas.web.app/images/zh-TW.png"
-    },
-    {
-        "title": "Corsican",
-        "flag": "https://mparablas.web.app/images/co.png"
-    },
-    {
-        "title": "Croatian",
-        "flag": "https://mparablas.web.app/images/hr.png"
-    },
-    {
-        "title": "Czech",
-        "flag": "https://mparablas.web.app/images/cs.png"
-    },
-    {
-        "title": "Danish",
-        "flag": "https://mparablas.web.app/images/da.png"
-    },
-    {
-        "title": "Dutch",
-        "flag": "https://mparablas.web.app/images/nl.png"
-    },
-    {
-        "title": "English",
-        "flag": "https://mparablas.web.app/images/en.png"
-    },
-    {
-        "title": "Esperanto",
-        "flag": "https://mparablas.web.app/images/eo.png"
-    },
-    {
-        "title": "Estonian",
-        "flag": "https://mparablas.web.app/images/et.png"
-    },
-    {
-        "title": "Filipino",
-        "flag": "https://mparablas.web.app/images/tl.png"
-    },
-    {
-        "title": "Finnish",
-        "flag": "https://mparablas.web.app/images/fi.png"
-    },
-    {
-        "title": "French",
-        "flag": "https://mparablas.web.app/images/fr.png"
-    },
-    {
-        "title": "Frisian",
-        "flag": "https://mparablas.web.app/images/fy.png"
-    },
-    {
-        "title": "Galician",
-        "flag": "https://mparablas.web.app/images/gl.png"
-    },
-    {
-        "title": "Georgian",
-        "flag": "https://mparablas.web.app/images/ka.png"
-    },
-    {
-        "title": "German",
-        "flag": "https://mparablas.web.app/images/de.png"
-    },
-    {
-        "title": "Greek",
-        "flag": "https://mparablas.web.app/images/el.png"
-    },
-    {
-        "title": "Gujarati",
-        "flag": "https://mparablas.web.app/images/gu.png"
-    },
-    {
-        "title": "Haitian Creole",
-        "flag": "https://mparablas.web.app/images/ht.png"
-    },
-    {
-        "title": "Hausa",
-        "flag": "https://mparablas.web.app/images/ha.png"
-    },
-    {
-        "title": "Hawaiian",
-        "flag": "https://mparablas.web.app/images/haw.png"
-    },
-    {
-        "title": "Hebrew",
-        "flag": "https://mparablas.web.app/images/iw.png"
-    },
-    {
-        "title": "Hindi",
-        "flag": "https://mparablas.web.app/images/hi.png"
-    },
-    {
-        "title": "Hmong",
-        "flag": "https://mparablas.web.app/images/hmn.png"
-    },
-    {
-        "title": "Hungarian",
-        "flag": "https://mparablas.web.app/images/hu.png"
-    },
-    {
-        "title": "Icelandic",
-        "flag": "https://mparablas.web.app/images/is.png"
-    },
-    {
-        "title": "Igbo",
-        "flag": "https://mparablas.web.app/images/ig.png"
-    },
-    {
-        "title": "Indonesian",
-        "flag": "https://mparablas.web.app/images/id.png"
-    },
-    {
-        "title": "Irish",
-        "flag": "https://mparablas.web.app/images/ga.png"
-    },
-    {
-        "title": "Italian",
-        "flag": "https://mparablas.web.app/images/it.png"
-    },
-    {
-        "title": "Japanese",
-        "flag": "https://mparablas.web.app/images/ja.png"
-    },
-    {
-        "title": "Javanese",
-        "flag": "https://mparablas.web.app/images/jw.png"
-    },
-    {
-        "title": "Kannada",
-        "flag": "https://mparablas.web.app/images/kn.png"
-    },
-    {
-        "title": "Kazakh",
-        "flag": "https://mparablas.web.app/images/kk.png"
-    },
-    {
-        "title": "Khmer",
-        "flag": "https://mparablas.web.app/images/km.png"
-    },
-    {
-        "title": "Korean",
-        "flag": "https://mparablas.web.app/images/ko.png"
-    },
-    {
-        "title": "Kurdish (Kurmanji)",
-        "flag": "https://mparablas.web.app/images/ku.png"
-    },
-    {
-        "title": "Kyrgyz",
-        "flag": "https://mparablas.web.app/images/ky.png"
-    },
-    {
-        "title": "Lao",
-        "flag": "https://mparablas.web.app/images/lo.png"
-    },
-    {
-        "title": "Latin",
-        "flag": "https://mparablas.web.app/images/la.png"
-    },
-    {
-        "title": "Latvian",
-        "flag": "https://mparablas.web.app/images/lv.png"
-    },
-    {
-        "title": "Lithuanian",
-        "flag": "https://mparablas.web.app/images/lt.png"
-    },
-    {
-        "title": "Luxembourgish",
-        "flag": "https://mparablas.web.app/images/lb.png"
-    },
-    {
-        "title": "Macedonian",
-        "flag": "https://mparablas.web.app/images/mk.png"
-    },
-    {
-        "title": "Malagasy",
-        "flag": "https://mparablas.web.app/images/mg.png"
-    },
-    {
-        "title": "Malay",
-        "flag": "https://mparablas.web.app/images/ms.png"
-    },
-    {
-        "title": "Malayalam",
-        "flag": "https://mparablas.web.app/images/ml.png"
-    },
-    {
-        "title": "Maltese",
-        "flag": "https://mparablas.web.app/images/mt.png"
-    },
-    {
-        "title": "Maori",
-        "flag": "https://mparablas.web.app/images/mi.png"
-    },
-    {
-        "title": "Marathi",
-        "flag": "https://mparablas.web.app/images/mr.png"
-    },
-    {
-        "title": "Mongolian",
-        "flag": "https://mparablas.web.app/images/mn.png"
-    },
-    {
-        "title": "Myanmar (Burmese)",
-        "flag": "https://mparablas.web.app/images/my.png"
-    },
-    {
-        "title": "Nepali",
-        "flag": "https://mparablas.web.app/images/ne.png"
-    },
-    {
-        "title": "Norwegian",
-        "flag": "https://mparablas.web.app/images/no.png"
-    },
-    {
-        "title": "Pashto",
-        "flag": "https://mparablas.web.app/images/ps.png"
-    },
-    {
-        "title": "Persian",
-        "flag": "https://mparablas.web.app/images/fa.png"
-    },
-    {
-        "title": "Polish",
-        "flag": "https://mparablas.web.app/images/pl.png"
-    },
-    {
-        "title": "Portuguese",
-        "flag": "https://mparablas.web.app/images/pt.png"
-    },
-    {
-        "title": "Punjabi",
-        "flag": "https://mparablas.web.app/images/pa.png"
-    },
-    {
-        "title": "Romanian",
-        "flag": "https://mparablas.web.app/images/ro.png"
-    },
-    {
-        "title": "Russian",
-        "flag": "https://mparablas.web.app/images/ru.png"
-    },
-    {
-        "title": "Samoan",
-        "flag": "https://mparablas.web.app/images/sm.png"
-    },
-    {
-        "title": "Scots Gaelic",
-        "flag": "https://mparablas.web.app/images/gd.png"
-    },
-    {
-        "title": "Serbian",
-        "flag": "https://mparablas.web.app/images/sr.png"
-    },
-    {
-        "title": "Sesotho",
-        "flag": "https://mparablas.web.app/images/st.png"
-    },
-    {
-        "title": "Shona",
-        "flag": "https://mparablas.web.app/images/sn.png"
-    },
-    {
-        "title": "Sindhi",
-        "flag": "https://mparablas.web.app/images/sd.png"
-    },
-    {
-        "title": "Sinhala",
-        "flag": "https://mparablas.web.app/images/si.png"
-    },
-    {
-        "title": "Slovak",
-        "flag": "https://mparablas.web.app/images/sk.png"
-    },
-    {
-        "title": "Slovenian",
-        "flag": "https://mparablas.web.app/images/sl.png"
-    },
-    {
-        "title": "Somali",
-        "flag": "https://mparablas.web.app/images/so.png"
-    },
-    {
-        "title": "Spanish",
-        "flag": "https://mparablas.web.app/images/es.png"
-    },
-    {
-        "title": "Sundanese",
-        "flag": "https://mparablas.web.app/images/su.png"
-    },
-    {
-        "title": "Swahili",
-        "flag": "https://mparablas.web.app/images/sw.png"
-    },
-    {
-        "title": "Swedish",
-        "flag": "https://mparablas.web.app/images/sv.png"
-    },
-    {
-        "title": "Tajik",
-        "flag": "https://mparablas.web.app/images/tg.png"
-    },
-    {
-        "title": "Tamil",
-        "flag": "https://mparablas.web.app/images/ta.png"
-    },
-    {
-        "title": "Telugu",
-        "flag": "https://mparablas.web.app/images/te.png"
-    },
-    {
-        "title": "Thai",
-        "flag": "https://mparablas.web.app/images/th.png"
-    },
-    {
-        "title": "Turkish",
-        "flag": "https://mparablas.web.app/images/tr.png"
-    },
-    {
-        "title": "Ukrainian",
-        "flag": "https://mparablas.web.app/images/uk.png"
-    },
-    {
-        "title": "Urdu",
-        "flag": "https://mparablas.web.app/images/ur.png"
-    },
-    {
-        "title": "Uzbek",
-        "flag": "https://mparablas.web.app/images/uz.png"
-    },
-    {
-        "title": "Vietnamese",
-        "flag": "https://mparablas.web.app/images/vi.png"
-    },
-    {
-        "title": "Welsh",
-        "flag": "https://mparablas.web.app/images/cy.png"
-    },
-    {
-        "title": "Xhosa",
-        "flag": "https://mparablas.web.app/images/xh.png"
-    },
-    {
-        "title": "Yiddish",
-        "flag": "https://mparablas.web.app/images/yi.png"
-    },
-    {
-        "title": "Yoruba",
-        "flag": "https://mparablas.web.app/images/yo.png"
-    },
-    {
-        "title": "Zulu",
-        "flag": "https://mparablas.web.app/images/zu.png"
-    }
+    {"code": "af",      "flag": "https://mparablas.web.app/images/af.png",       "title": "Afrikaans"},
+    {"code": "sq",      "flag": "https://mparablas.web.app/images/sq.png",       "title": "Albanian"},
+    {"code": "am",      "flag": "https://mparablas.web.app/images/am.png",       "title": "Amharic"},
+    {"code": "ar",      "flag": "https://mparablas.web.app/images/ar.png",       "title": "Arabic"},
+    {"code": "hy",      "flag": "https://mparablas.web.app/images/hy.png",       "title": "Armenian"},
+    {"code": "az",      "flag": "https://mparablas.web.app/images/az.png",       "title": "Azerbaijani"},
+    {"code": "eu",      "flag": "https://mparablas.web.app/images/eu.png",       "title": "Basque"},
+    {"code": "be",      "flag": "https://mparablas.web.app/images/be.png",       "title": "Belarusian"},
+    {"code": "bn",      "flag": "https://mparablas.web.app/images/bn.png",       "title": "Bengali"},
+    {"code": "bs",      "flag": "https://mparablas.web.app/images/bs.png",       "title": "Bosnian"},
+    {"code": "bg",      "flag": "https://mparablas.web.app/images/bg.png",       "title": "Bulgarian"},
+    {"code": "ca",      "flag": "https://mparablas.web.app/images/ca.png",       "title": "Catalan"},
+    {"code": "ceb",     "flag": "https://mparablas.web.app/images/ceb.png",      "title": "Cebuano"},
+    {"code": "ny",      "flag": "https://mparablas.web.app/images/ny.png",       "title": "Chichewa"},
+    {"code": "zh",      "flag": "https://mparablas.web.app/images/zh.png",       "title": "Chinese (Simplified)"},
+    {"code": "zh-TW",   "flag": "https://mparablas.web.app/images/zh-TW.png",    "title": "Chinese (Traditional)"},
+    {"code": "co",      "flag": "https://mparablas.web.app/images/co.png",       "title": "Corsican"},
+    {"code": "hr",      "flag": "https://mparablas.web.app/images/hr.png",       "title": "Croatian"},
+    {"code": "cs",      "flag": "https://mparablas.web.app/images/cs.png",       "title": "Czech"},
+    {"code": "da",      "flag": "https://mparablas.web.app/images/da.png",       "title": "Danish"},
+    {"code": "nl",      "flag": "https://mparablas.web.app/images/nl.png",       "title": "Dutch"},
+    {"code": "en",      "flag": "https://mparablas.web.app/images/en.png",       "title": "English"},
+    {"code": "eo",      "flag": "https://mparablas.web.app/images/eo.png",       "title": "Esperanto"},
+    {"code": "et",      "flag": "https://mparablas.web.app/images/et.png",       "title": "Estonian"},
+    {"code": "tl",      "flag": "https://mparablas.web.app/images/tl.png",       "title": "Filipino"},
+    {"code": "fi",      "flag": "https://mparablas.web.app/images/fi.png",       "title": "Finnish"},
+    {"code": "fr",      "flag": "https://mparablas.web.app/images/fr.png",       "title": "French"},
+    {"code": "fy",      "flag": "https://mparablas.web.app/images/fy.png",       "title": "Frisian"},
+    {"code": "gl",      "flag": "https://mparablas.web.app/images/gl.png",       "title": "Galician"},
+    {"code": "ka",      "flag": "https://mparablas.web.app/images/ka.png",       "title": "Georgian"},
+    {"code": "de",      "flag": "https://mparablas.web.app/images/de.png",       "title": "German"},
+    {"code": "el",      "flag": "https://mparablas.web.app/images/el.png",       "title": "Greek"},
+    {"code": "gu",      "flag": "https://mparablas.web.app/images/gu.png",       "title": "Gujarati"},
+    {"code": "ht",      "flag": "https://mparablas.web.app/images/ht.png",       "title": "Haitian Creole"},
+    {"code": "ha",      "flag": "https://mparablas.web.app/images/ha.png",       "title": "Hausa"},
+    {"code": "haw",     "flag": "https://mparablas.web.app/images/haw.png",     "title": "Hawaiian"},
+    {"code": "iw",      "flag": "https://mparablas.web.app/images/iw.png",       "title": "Hebrew"},
+    {"code": "hi",      "flag": "https://mparablas.web.app/images/hi.png",       "title": "Hindi"},
+    {"code": "hmn",     "flag": "https://mparablas.web.app/images/hmn.png",     "title": "Hmong"},
+    {"code": "hu",      "flag": "https://mparablas.web.app/images/hu.png",       "title": "Hungarian"},
+    {"code": "is",      "flag": "https://mparablas.web.app/images/is.png",       "title": "Icelandic"},
+    {"code": "ig",      "flag": "https://mparablas.web.app/images/ig.png",       "title": "Igbo"},
+    {"code": "id",      "flag": "https://mparablas.web.app/images/id.png",       "title": "Indonesian"},
+    {"code": "ga",      "flag": "https://mparablas.web.app/images/ga.png",       "title": "Irish"},
+    {"code": "it",      "flag": "https://mparablas.web.app/images/it.png",       "title": "Italian"},
+    {"code": "ja",      "flag": "https://mparablas.web.app/images/ja.png",       "title": "Japanese"},
+    {"code": "jw",      "flag": "https://mparablas.web.app/images/jw.png",       "title": "Javanese"},
+    {"code": "kn",      "flag": "https://mparablas.web.app/images/kn.png",       "title": "Kannada"},
+    {"code": "kk",      "flag": "https://mparablas.web.app/images/kk.png",       "title": "Kazakh"},
+    {"code": "km",      "flag": "https://mparablas.web.app/images/km.png",       "title": "Khmer"},
+    {"code": "ko",      "flag": "https://mparablas.web.app/images/ko.png",       "title": "Korean"},
+    {"code": "ku",      "flag": "https://mparablas.web.app/images/ku.png",       "title": "Kurdish (Kurmanji)"},
+    {"code": "ky",      "flag": "https://mparablas.web.app/images/ky.png",       "title": "Kyrgyz"},
+    {"code": "la",      "flag": "https://mparablas.web.app/images/la.png",       "title": "Latin"},
+    {"code": "lv",      "flag": "https://mparablas.web.app/images/lv.png",       "title": "Latvian"},
+    {"code": "lt",      "flag": "https://mparablas.web.app/images/lt.png",       "title": "Lithuanian"},
+    {"code": "lb",      "flag": "https://mparablas.web.app/images/lb.png",       "title": "Luxembourgish"},
+    {"code": "mk",      "flag": "https://mparablas.web.app/images/mk.png",       "title": "Macedonian"},
+    {"code": "mg",      "flag": "https://mparablas.web.app/images/mg.png",       "title": "Malagasy"},
+    {"code": "ms",      "flag": "https://mparablas.web.app/images/ms.png",       "title": "Malay"},
+    {"code": "ml",      "flag": "https://mparablas.web.app/images/ml.png",       "title": "Malayalam"},
+    {"code": "mt",      "flag": "https://mparablas.web.app/images/mt.png",       "title": "Maltese"},
+    {"code": "mi",      "flag": "https://mparablas.web.app/images/mi.png",       "title": "Maori"},
+    {"code": "mr",      "flag": "https://mparablas.web.app/images/mr.png",       "title": "Marathi"},
+    {"code": "mn",      "flag": "https://mparablas.web.app/images/mn.png",       "title": "Mongolian"},
+    {"code": "my",      "flag": "https://mparablas.web.app/images/my.png",       "title": "Myanmar (Burmese)"},
+    {"code": "ne",      "flag": "https://mparablas.web.app/images/ne.png",       "title": "Nepali"},
+    {"code": "no",      "flag": "https://mparablas.web.app/images/no.png",       "title": "Norwegian"},
+    {"code": "ps",      "flag": "https://mparablas.web.app/images/ps.png",       "title": "Pashto"},
+    {"code": "fa",      "flag": "https://mparablas.web.app/images/fa.png",       "title": "Persian"},
+    {"code": "pl",      "flag": "https://mparablas.web.app/images/pl.png",       "title": "Polish"},
+    {"code": "pt",      "flag": "https://mparablas.web.app/images/pt.png",       "title": "Portuguese"},
+    {"code": "pa",      "flag": "https://mparablas.web.app/images/pa.png",       "title": "Punjabi"},
+    {"code": "ro",      "flag": "https://mparablas.web.app/images/ro.png",       "title": "Romanian"},
+    {"code": "ru",      "flag": "https://mparablas.web.app/images/ru.png",       "title": "Russian"},
+    {"code": "sm",      "flag": "https://mparablas.web.app/images/sm.png",       "title": "Samoan"},
+    {"code": "gd",      "flag": "https://mparablas.web.app/images/gd.png",       "title": "Scots Gaelic"},
+    {"code": "sr",      "flag": "https://mparablas.web.app/images/sr.png",       "title": "Serbian"},
+    {"code": "st",      "flag": "https://mparablas.web.app/images/st.png",       "title": "Sesotho"},
+    {"code": "sn",      "flag": "https://mparablas.web.app/images/sn.png",       "title": "Shona"},
+    {"code": "sd",      "flag": "https://mparablas.web.app/images/sd.png",       "title": "Sindhi"},
+    {"code": "si",      "flag": "https://mparablas.web.app/images/si.png",       "title": "Sinhala"},
+    {"code": "sk",      "flag": "https://mparablas.web.app/images/sk.png",       "title": "Slovak"},
+    {"code": "sl",      "flag": "https://mparablas.web.app/images/sl.png",       "title": "Slovenian"},
+    {"code": "so",      "flag": "https://mparablas.web.app/images/so.png",       "title": "Somali"},
+    {"code": "es",      "flag": "https://mparablas.web.app/images/es.png",       "title": "Spanish"},
+    {"code": "su",      "flag": "https://mparablas.web.app/images/su.png",       "title": "Sundanese"},
+    {"code": "sw",      "flag": "https://mparablas.web.app/images/sw.png",       "title": "Swahili"},
+    {"code": "sv",      "flag": "https://mparablas.web.app/images/sv.png",       "title": "Swedish"},
+    {"code": "tg",      "flag": "https://mparablas.web.app/images/tg.png",       "title": "Tajik"},
+    {"code": "ta",      "flag": "https://mparablas.web.app/images/ta.png",       "title": "Tamil"},
+    {"code": "te",      "flag": "https://mparablas.web.app/images/te.png",       "title": "Telugu"},
+    {"code": "th",      "flag": "https://mparablas.web.app/images/th.png",       "title": "Thai"},
+    {"code": "tr",      "flag": "https://mparablas.web.app/images/tr.png",       "title": "Turkish"},
+    {"code": "uk",      "flag": "https://mparablas.web.app/images/uk.png",       "title": "Ukrainian"},
+    {"code": "ur",      "flag": "https://mparablas.web.app/images/ur.png",       "title": "Urdu"},
+    {"code": "uz",      "flag": "https://mparablas.web.app/images/uz.png",       "title": "Uzbek"},
+    {"code": "vi",      "flag": "https://mparablas.web.app/images/vi.png",       "title": "Vietnamese"},
+    {"code": "cy",      "flag": "https://mparablas.web.app/images/cy.png",       "title": "Welsh"},
+    {"code": "xh",      "flag": "https://mparablas.web.app/images/xh.png",       "title": "Xhosa"},
+    {"code": "yi",      "flag": "https://mparablas.web.app/images/yi.png",       "title": "Yiddish"},
+    {"code": "yo",      "flag": "https://mparablas.web.app/images/yo.png",       "title": "Yoruba"},
+    {"code": "zu",      "flag": "https://mparablas.web.app/images/zu.png",       "title": "Zulu"}
 ]

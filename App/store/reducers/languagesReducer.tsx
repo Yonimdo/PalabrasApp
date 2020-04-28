@@ -1,32 +1,10 @@
 import { config } from "../../config"
+import { Actions } from "../actions";
 
-const languagesReducer = async (state:any, action:any) => {
-  if(!state){
-    // let all = await fetch(action.payload, {
-    let all = await fetch( `${config.storeFirebaseUrl}getAllLanguages`, {
-      headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-    }
-  }).then(data=> {return data.json();}).catch(e=>{debugger;});
-    
-    state = {
-      allLanguges:all,
-      userLanguages:[{
-        title: "Hebrew",
-        flag: "https://mparablas.web.app/images/iw.png"
-        },
-        {
-        title: "English",
-        flag: "https://mparablas.web.app/images/en.png"
-        },
-        {
-        flag: "https://mparablas.web.app/images/eo.png",
-        title: "Esperanto"
-        }]
-    };
-  }
+const languagesReducer = (state:any = {data:[]}, action:any) => {
   switch (action.type) {
+    case Actions.GET_AVAILABLE_LANGUAGES:
+      return {...action.payload}
     default:
       return state
   }

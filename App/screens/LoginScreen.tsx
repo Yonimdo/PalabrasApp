@@ -1,16 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
-import PParallaxSwiper from '../components/pParallaxSwiper';
+import { StyleSheet, View, Button } from 'react-native';
 import { useDispatch , useSelector} from 'react-redux';
 import {Actions} from '../store/actions'
+import User from '../store/entites/user';
 // import * as firebase from 'firebase';
 // import Expo from 'expo'
 export default function LoginScreen(props:any) {
 
-  const profile = useSelector((state:any) => state.profile)
+  const profile:User = useSelector((state:any) => state.profile)
   const dispatch = useDispatch();
-  debugger;
-  if(profile.isLoggedIn){
+  
+  if(profile.administrative_fields.token){
     props.navigation.navigate('SplashScreen');
   }
 

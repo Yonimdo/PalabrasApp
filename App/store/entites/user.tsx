@@ -1,12 +1,23 @@
 export default class User {
-    name= "";
-    profileImage= "";
-    about= "";
-    email="";
-    isLoggedIn= false;
-    isPremium= false;
-    isNewUser= true;
-    created=Date.now();
-    lastLoginDate=Date.now();
+    languages=[]
+    settings={
+        locale:"",
+    };
+    administrative_fields={
+        uid:"",
+        isLoggedIn: false,
+        isPremium: false,
+        isNewUser: true,
+        token: false,
+    };
+    public_fields ={
+        created:Date.now(),
+        lastLoginDate:Date.now(),
+        name: false,
+        profileImage: "",
+        about:"",
+        email:"",
+    };
+    display=""
 };
   
