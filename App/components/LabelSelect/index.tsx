@@ -4,7 +4,6 @@
 
 import React from 'react';
 import { View, Text, Image, TouchableHighlight} from 'react-native';
-import PModal from '~/components/pTransparentModal';
 import { useSelector } from 'react-redux';
 import styles from './style'
 
@@ -13,10 +12,6 @@ function LabelSelect(props: any) {
     const words = useSelector((state:any) => state.words.data)
     const openModal = () => {
 
-    }
-    const createTable = () => {
-        console.log(words)
-    return 
     }
     return (
         <View style={[styles.selectedView, props.style]}>
@@ -35,7 +30,6 @@ function LabelSelect(props: any) {
                     />
                 </TouchableHighlight>
             }
-            <PModal ></PModal>
         </View>
     );
 }

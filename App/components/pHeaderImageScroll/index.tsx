@@ -10,7 +10,7 @@ export default class PHeaderImageScroll extends React.Component {
       <HeaderImageScrollView
         maxHeight={200}
         minHeight={80}
-        headerImage={require("../assets/splash.png")}
+        headerImage={require("../../assets/splash.png")}
         renderForeground={() => (
           <View style={{ height: 150, justifyContent: "center", alignItems: "center" }} >
             <TouchableOpacity onPress={() => console.log("tap!!")}>

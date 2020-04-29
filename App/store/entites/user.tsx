@@ -1,5 +1,5 @@
 export default class User {
-    languages=[]
+    languages:Array<Language>=[]
     settings={
         locale:"",
     };

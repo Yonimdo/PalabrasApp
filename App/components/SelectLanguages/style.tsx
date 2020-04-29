@@ -7,30 +7,35 @@ export default StyleSheet.create({
   selectedView: {
     flexDirection: 'row',
     justifyContent: 'flex-start',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     flexWrap: 'wrap'
   },
-  selectedItem: {
-    margin: 4,
-    borderWidth: 2 / scale,
-    borderRadius: 6,
-    borderColor: '#aaa',
+  itemWrapper:{
+    borderWidth:1/scale,
     flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    overflow: 'hidden',
-    backgroundColor: '#f6f6f6'
+    width:150,
+    borderColor:'#2d2d2d2d',
+    alignItems:'center',
+    backgroundColor:'#fff'
+  },
+  item:{
+  flex:1,
+  margin:4
+  },
+  avater:{
+    height:24,
+    width:44
+
+  },
+  autocomplete: {
+    width: 120,
+    height:24,
   },
   addItem: {
     padding: 7
   },
-  disableColor: {
-    backgroundColor: Colors.disableColor
-  },
   labelText: {
-    padding: 6,
     fontSize: 14,
-    lineHeight: 14,
     maxWidth: 300
   },
   closeContainer: {
@@ -79,8 +84,9 @@ export default StyleSheet.create({
     height: 10
   },
   addIcon: {
-    width: 12,
-    height: 12
+    width: 14,
+    height: 24,
+    color:'#fff'
   },
   disableText: {
     color: '#999'

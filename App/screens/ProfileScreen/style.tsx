@@ -54,7 +54,7 @@ export default  StyleSheet.create({
       height: 124
     },
     about: {
-      minHeight: 124,
+      minHeight: 104,
       alignItems: 'flex-start',
       textAlignVertical: 'top'
     },

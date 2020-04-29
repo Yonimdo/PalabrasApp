@@ -8,9 +8,10 @@ import LoginScreen from "./screens/LoginScreen"
 import MainScreen from "./screens/MainScreen"
 import thunk from 'redux-thunk'
 import SplashScreen from "./screens/SplashScreen"
-import SelectLanguages from "./screens/SelectLanguages"
+import ProfileScreen from "./screens/ProfileScreen"
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider } from '@ui-kitten/components';
+import { ApplicationProvider, IconRegistry } from '@ui-kitten/components';
+import { EvaIconsPack } from '@ui-kitten/eva-icons';
 
 const store = createStore(reducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
   applyMiddleware(thunk)
@@ -21,17 +22,20 @@ const AppSwitchNavigator = createSwitchNavigator({
   SplashScreen,
   LoginScreen,
   MainScreen,
-  SelectLanguages,
+  ProfileScreen,
 });
 const AppNavigator = createAppContainer(AppSwitchNavigator)
 
 export default function App() {
   return (
+    <>
+    <IconRegistry icons={EvaIconsPack} />
     <ApplicationProvider {...eva} theme={eva.light}>
       <Provider store={store}>
         <AppNavigator style={styles.container}></AppNavigator>
       </Provider>
     </ApplicationProvider>
+    </>
   );
 }
 

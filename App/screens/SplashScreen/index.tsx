@@ -12,17 +12,22 @@ export default function SplashScreen(props: any) {
   if (!profile.administrative_fields.isLoggedIn) {
     AsyncStorage.getItem(Storage.GOOGLE_ID_TOKEN).then(token => {
       if (token) {
+        // Stay in page
         dispatch(Actions.executeFirebaseLogin())
       } else {
         return props.navigation.navigate('LoginScreen')
       }
     });
   } else if (!profile.public_fields.name) {
+    // Stay in page
     dispatch(Actions.executeGetUserFields(profile))
   } else if (profile.languages.length == 0) {
-    debugger
-    return props.navigation.navigate('SelectLanguages');
+    return props.navigation.navigate('ProfileScreen');
+  } else {
+    // User Is in firebase, we have all the data to continue. 
+    return props.navigation.navigate('MainScreen');
   }
+
 
   return (
     <View style={styles.container}>

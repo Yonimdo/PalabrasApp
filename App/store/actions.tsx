@@ -26,6 +26,18 @@ const getUserFields = async (dispatch: any, current:User=new User()) => {
     dispatch(Actions.execute(Actions.GET_USER_FIELDS, current));
 }
 
+const postUserFields = async (dispatch: any, current:User) => {
+    dispatch(Actions.execute(Actions.POST_USER_FIELDS, current));
+    const res = await firebase.firestore().collection("users").doc(current.administrative_fields.uid).set({...current})
+    .then(function(docRef) {
+        return console.log("Document written with ID: ", docRef);
+    })
+    .catch(function(error) {
+        return console.error("Error adding document: ", error);
+    });
+    dispatch(Actions.execute(Actions.GET_USER_FIELDS, current));
+}
+
 const signinToFirebase = async (dispatch: any) => {
     if (!firebase.apps.length) {
         firebase.initializeApp(config.firebaseConfig);
@@ -117,6 +129,7 @@ export class Actions {
     static LOGOUT = "LOGOUT";
     static LOGIN_FIALED = "LOGIN_FIALED";
     static GET_USER_FIELDS = "GET_USER_FIELDS";
+    static POST_USER_FIELDS = "POST_USER_FIELDS";
     // Words
     static ADD_UPDATE_WORD = "ADD_UPDATE_WORD";
     static REMOVE_WORD = "REMOVE_WORD";
@@ -144,6 +157,11 @@ export class Actions {
     static executeGetUserFields = (current:User=new User()) => {
         return (dispatch: any) => {
             getUserFields(dispatch, current);
+        };
+    };
+    static executePostUserFields = (current:User) => {
+        return (dispatch: any) => {
+            postUserFields(dispatch, current);
         };
     };
     static executeGetAvailableLanguages = () => {
