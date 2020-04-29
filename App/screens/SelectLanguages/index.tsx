@@ -49,7 +49,7 @@ export default function SelectLanguages(props: any) {
       <Text style={styles.name} category='h6'>{(!profile.public_fields.name) ? 'Loading': `${profile.public_fields.name}`}</Text>
       <Autocomplete
         style={styles.autocomplete}
-        placeholder='Active'
+        placeholder='Select Local Language'
         value={autoValue}
         data={languagesAutoComplete}
         onChangeText={onChangeText}

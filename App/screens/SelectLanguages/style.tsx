@@ -64,7 +64,7 @@ export default  StyleSheet.create({
       backgroundColor: '#B8E1FF'
     },
     autocomplete: {
-      width: 192,
+      width: 320,
       margin: 8,
     },
   });
