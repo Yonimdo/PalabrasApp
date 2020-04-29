@@ -10,14 +10,14 @@ export default class User {
         isNewUser: true,
         token: false,
     };
-    public_fields ={
-        created:Date.now(),
-        lastLoginDate:Date.now(),
-        name: false,
-        profileImage: "",
-        about:"",
-        email:"",
-    };
+    public_fields = new PublicFields();
     display=""
 };
-  
+class PublicFields {
+    created = Date.now();
+    lastLoginDate = Date.now();
+    name:String|boolean = false;
+    profileImage = "";
+    about = "";
+    email = "";
+}

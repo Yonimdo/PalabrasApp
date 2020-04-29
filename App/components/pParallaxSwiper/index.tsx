@@ -2,9 +2,10 @@ import React from "react";
 import {Animated, Text, View, Image, StyleSheet, Dimensions } from "react-native";
 
 import {ParallaxSwiper, ParallaxSwiperPage } from "react-native-parallax-swiper";
-import PHeaderImageScroll from "./pHeaderImageScroll";
+import PHeaderImageScroll from "~/components/pHeaderImageScroll";
+import styles from './style'
 
-const { width, height } = Dimensions.get("window");
+const { width } = Dimensions.get("window");
 
 export default class PParallaxSwiper extends React.Component {
     myCustomAnimatedValue = new Animated.Value(0);
@@ -63,17 +64,3 @@ export default class PParallaxSwiper extends React.Component {
         );
     }
 }
-
-const styles = StyleSheet.create({
-    backgroundImage: {
-        width,
-        height
-    },
-    foregroundTextContainer: {
-        flex: 1,
-
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "transparent"
-    }
-});

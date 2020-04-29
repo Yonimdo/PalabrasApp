@@ -1,8 +1,9 @@
 import React from 'react';
-import { StyleSheet, View, Button } from 'react-native';
+import { View, Button } from 'react-native';
 import { useDispatch , useSelector} from 'react-redux';
-import {Actions} from '../store/actions'
-import User from '../store/entites/user';
+import {Actions} from '~/store/actions'
+import User from '~/store/entites/user';
+import styles from './style'
 // import * as firebase from 'firebase';
 // import Expo from 'expo'
 export default function LoginScreen(props:any) {
@@ -22,12 +23,3 @@ export default function LoginScreen(props:any) {
     </View>    
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

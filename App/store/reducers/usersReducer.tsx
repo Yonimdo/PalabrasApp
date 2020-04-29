@@ -27,7 +27,10 @@ const profileReducer = (state: User = new User(), action: any) => {
       return { ...state }
     case Actions.LOGIN_FIREBASE:
       state.display = "Analyzing data please hold"
-      return { ...state }
+      return { ...action.payload }
+    case Actions.GET_USER_FIELDS:
+      state.display = (action.payload.public_fields.name) ? "": "Failed getting user data"
+      return { ...action.payload }
     case Actions.LOGIN:
       return { ...state }
     default:

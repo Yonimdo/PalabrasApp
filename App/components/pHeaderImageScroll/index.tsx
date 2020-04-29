@@ -1,7 +1,7 @@
 import React from "react";
 import { Dimensions, View, Text, TouchableOpacity, Animated, StyleSheet } from "react-native";
 import HeaderImageScrollView, { TriggeringView } from 'react-native-image-header-scroll-view';
-import LabelSelect from "./LabelSelect";
+import LabelSelect from "~/components/LabelSelect";
 
 export default class PHeaderImageScroll extends React.Component {
 
